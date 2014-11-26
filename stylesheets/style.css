@@ -1,0 +1,147 @@
+#header{
+  position: fixed;
+  top: 0; left; 0;
+  width: 100%;
+  height: 30px;
+  background: url(../images/background.png) repeat; filter:alpha(opacity=65);  
+  /* CSS3 standard */
+  opacity:0.65;
+  z-index: 1;
+  padding-top: 10px;
+}
+
+#menu {
+  position: fixed;
+  top: 200px;
+  left: 25px;
+  height: 300px;
+  width: 150px;
+  font: 120% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+  color: #fff;
+  text-align: right;
+}
+
+#menu a {
+  color: #000;
+  font-size: 36px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#header h1 {
+  text-align: center;
+}
+
+.title {
+  width:449px;
+  height: 30px;
+  background: #fff; filter:alpha(opacity=85);  
+  /* CSS3 standard */
+  opacity:0.85;
+  float:left;
+  text-align: right;
+}
+
+.title h1 {
+  padding-right: 10px;
+  color: #000;
+  padding-top: 5px;
+}
+
+.overlay {
+  width: 320px;
+  height: 450px;
+  margin-top: 10px;
+  text-align: left;
+  padding: 10px;
+  margin-left: 455px;
+}
+
+.title {
+  font: 120% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+  color: #000;
+}
+
+.description {
+  margin-bottom: 10px;
+  font: 75% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+  color: #000;
+}
+
+.first {
+  margin-top: 20px;
+}
+
+.content-frame{
+  padding-top: 63px;
+}
+
+.slide:hover{
+  cursor: pointer;
+}
+
+.home {
+  background: #F0F0F1;
+}
+
+.home .content-frame .content{
+  width: 800px;
+  height: 450px;
+  background: url(../images/backgrounds/home.png) top left no-repeat;
+  margin: auto;
+}
+
+.portfolio {
+  background: #C1A0B0;
+}
+
+.portfolio .content-frame .content{
+  width: 800px;
+  height: 450px;
+  background: url(../images/backgrounds/portfolio.png) top left no-repeat;
+  margin: auto;
+}
+
+.outdoor {
+  background: #485F80;
+}
+
+.outdoor .content-frame .content{
+  width: 800px;
+  height: 450px;
+  background: url(../images/backgrounds/outdoor.png) top left no-repeat;
+  margin: auto;
+}
+
+.clients {
+  background: #E3E2B5;
+}
+
+.clients .content-frame .content{
+  width: 800px;
+  height: 450px;
+  background: url(../images/backgrounds/clients.png) top left no-repeat;
+  margin: auto;
+}
+
+.contact {
+  background: #666E46;
+}
+
+.contact .content-frame .content{
+  width: 800px;
+  height: 450px;
+  background: url(../images/backgrounds/contact.png) top left no-repeat;
+  margin: auto;
+}
+
+.support {
+  background: #BB4C22;
+}
+
+.support .content-frame .content{
+  width: 800px;
+  height: 450px;
+  background: url(../images/backgrounds/support.png) top left no-repeat;
+  margin: auto;
+}
