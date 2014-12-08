@@ -56,6 +56,10 @@
   padding-top: 5px;
 }
 
+.title h2 a {
+  color: #f00;
+}
+
 .overlay {
   width: 320px;
   height: 450px;
